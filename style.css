@@ -18,6 +18,7 @@ body {
 
 /* section 1 styles */
 .section-1 {
+    font-family: Roboto;
     width: 1600px;
     position: relative;
     background-image: url(/assets/images/bg-image.png);
@@ -150,6 +151,48 @@ header {
 
 /* start section two styles */
 
+.section-2 {
+    width: 1600px;
+    height: 842px;
+    font-family: Roboto;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
 
+.reppresent-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
 
+.reppresent-heading {
+    width: 380px;
+    height: 57px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #373737;
+}
+
+.reppresent-paragraph {
+    width: 407px;
+    height: 80px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    color: #4E4E4E;
+    margin-top: 20px;
+}
+
+.reppresent-img-container {
+    width: 407px;
+    height: 582px;
+    top: -22px;
+    bottom: -22px;
+}
 /*end of section 2 styles */
