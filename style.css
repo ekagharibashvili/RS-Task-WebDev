@@ -190,7 +190,7 @@ header {
     margin-top: 20px;
 }
 
-.reppresent-img-container {
+.reppresent-img-container img{
     width: 407px;
     height: 582px;
 }
@@ -285,3 +285,72 @@ header {
 
 /* end of section 3 */
 
+/* start of section 4 */ 
+
+.section-4 {
+    width: 1600px;
+    height: 842px;
+    font-family: Roboto;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background:#FFFFFF;
+}
+
+.implement-img-container img{
+    width: 407px;
+    height: 582px;
+}
+
+.implement-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.implement-heading {
+    width: 350px;
+    height: 28px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #373737;
+}
+
+.implement-paragraph {
+    width: 407px;
+    height: 60px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    color: #4E4E4E;
+    margin-top: 20px;
+}
+
+.learn-more-btn {
+    font-family: Roboto;
+    width: 180px;
+    height: 46px;
+    background: #00AFDB;
+    overflow: hidden;
+    cursor: pointer;
+    border: 0.1rem;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 30px;
+}
+
+.learn-more-btn:hover {
+    background: #6cc2da;
+}
+
+
+
+/* end of section 4 */
