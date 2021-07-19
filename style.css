@@ -11,7 +11,7 @@
 }
 
 body {
-    overflow: hidden;
+    overflow-x: hidden;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -146,3 +146,10 @@ header {
     top: 5.5px;
 }
 /* end of section 1 styles */
+
+
+/* start section two styles */
+
+
+
+/*end of section 2 styles */
