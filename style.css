@@ -373,7 +373,7 @@ header {
 
 .sign-up-heading {
     margin-top: 200px;
-    margin-left: 520px;
+    margin-left: 595px;
     width: 400px;
     height: 28px;
     font-style: normal;
@@ -388,7 +388,7 @@ header {
 
 .section-5 form {
     margin-top: 30px;
-    margin-left: -400px;
+    margin-left: -398px;
     display: flex;
     align-items: center;
 }
@@ -444,6 +444,160 @@ header {
 
 /* start of section 6 */
 
+.section-6 {
+    font-family: Roboto;
+    width: 1600px;
+    height: 300px;
+    background: #F5F6F7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
 
+.download-heading {
+    margin-top: 120px;
+    width: 260px;
+    height: 28px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #373737;
+}
+
+.download-paragraph {
+    margin-top: 20px;
+    width: 480px;
+    height: 40px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: center;
+    color: #4E4E4E;
+}
+
+.stores {
+    display: flex;
+    margin-top: 30px;
+}
+
+.apple-store {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.apple-store-text {
+    width: 127px;
+    height: 46px;
+    background: #00AFDB;
+    border-radius: 0px;
+    position: relative;
+    cursor: pointer;
+}
+
+.apple-store-text:hover {
+    background: #328ea5;
+}
+
+.apple-store-text h6 {
+    position: absolute;
+    width: 91px;
+    height: 16px;
+    left: calc(50% - 91px/2);
+    top: calc(50% - 16px/2);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.apple-logo {
+    width: 59px;
+    height: 46px;
+    background: #009CC2;
+    border-radius: 0px;
+    order: 1;
+    position: relative;
+    cursor: pointer;
+}
+
+.apple-logo:hover {
+    background: #80c8da;
+}
+
+.apple-logo img {
+    position: absolute;
+    width: 15.97px;
+    height: 18.25px;
+    top: 13px;
+    left: 20px;
+}
+
+.play-market {
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.play-market-text {
+    width: 127px;
+    height: 46px;
+    background: #00AFDB;
+    border-radius: 0px;
+    position: relative;
+    cursor: pointer;
+}
+
+.play-market-text:hover {
+    background: #328ea5;
+}
+
+.play-market-text h6 {
+    position: absolute;
+    width: 91px;
+    height: 16px;
+    left: calc(50% - 91px/2);
+    top: calc(50% - 16px/2);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13.6px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.market-logo {
+    width: 59px;
+    height: 46px;
+    background: #009CC2;
+    border-radius: 0px;
+    order: 1;
+    position: relative;
+    cursor: pointer;
+}
+
+.market-logo:hover {
+    background: #80c8da;
+}
+
+.market-logo img {
+    position: absolute;
+    width: 15.97px;
+    height: 18.25px;
+    top: 13px;
+    left: 20px;
+}
 
 /* end of section 6 */
