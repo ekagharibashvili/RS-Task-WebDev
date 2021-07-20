@@ -402,6 +402,10 @@ header {
     position: relative;
 }
 
+.section-5 form input:hover {
+    cursor: pointer;
+}
+
 .section-5 form input::placeholder {
     width: 39px;
     height: 20px;
@@ -421,6 +425,7 @@ header {
     background: #00AFDB;
     border-radius: 0px;
     position: relative;
+    cursor: pointer;
 }
 
 .submit img {
@@ -431,5 +436,8 @@ header {
     top: calc(50% - 13.22px/2);
 }
 
+.section-5 form .submit:hover {
+    background: #4cc8eb;
+}
 
 /* end section 5 */
