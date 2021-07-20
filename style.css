@@ -351,6 +351,85 @@ header {
     background: #6cc2da;
 }
 
-
-
 /* end of section 4 */
+
+/* start section 5 */
+
+.section-5 {
+    font-family: Roboto;
+    width: 1920px;
+    left: -160px;
+    top: -615px;
+}
+
+.signup {
+    display: flex;
+    width: 1600px;
+    height: 518px;
+    background-image: url(/assets/images/pexels-christina-morillo-1181675\ 1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.sign-up-heading {
+    margin-top: 200px;
+    margin-left: 520px;
+    width: 400px;
+    height: 28px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.section-5 form {
+    margin-top: 30px;
+    margin-left: -400px;
+    display: flex;
+    align-items: center;
+}
+
+.section-5 form input {
+    width: 335px;
+    height: 46px;
+    background: #FFFFFF;
+    border-radius: 0px;
+    border: none;
+    position: relative;
+}
+
+.section-5 form input::placeholder {
+    width: 39px;
+    height: 20px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    color: #373737;
+    opacity: 0.5;
+    left: 24px;
+    top: 13px;
+    position: absolute;
+}
+
+.section-5 form .submit {
+    width: 66px;
+    height: 46px;
+    background: #00AFDB;
+    border-radius: 0px;
+    position: relative;
+}
+
+.submit img {
+    position: absolute;
+    width: 18.52px;
+    height: 15.22px;
+    left: calc(50% - 16.52px/2);
+    top: calc(50% - 13.22px/2);
+}
+
+
+/* end section 5 */
