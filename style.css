@@ -21,7 +21,7 @@ body {
     font-family: Roboto;
     width: 1600px;
     position: relative;
-    background-image: url(/assets/images/bg-image.png);
+    background-image: url(./assets/images/bg-image.png);
     background-repeat: no-repeat;
     background-size: 100% 100%; 
     display: flex;
@@ -366,7 +366,7 @@ header {
     display: flex;
     width: 1600px;
     height: 518px;
-    background-image: url(/assets/images/pexels-christina-morillo-1181675\ 1.png);
+    background-image: url(./assets/images/pexels-christina-morillo-1181675\ 1.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
